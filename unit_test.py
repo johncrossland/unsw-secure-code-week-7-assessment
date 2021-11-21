@@ -1,6 +1,8 @@
 import unittest
 
 from my_sum import sum
+
+from fractions import Fraction
  
 class TestSum(unittest.TestCase):
     def test_list_int(self):
