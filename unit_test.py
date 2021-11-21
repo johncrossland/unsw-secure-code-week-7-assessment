@@ -12,7 +12,7 @@ from decimal import Decimal
 
 from decimal import getcontext
 
-getcontext().prec = 1
+getcontext().prec = 2
  
 class TestSum(unittest.TestCase):
     def test_list_int(self):
